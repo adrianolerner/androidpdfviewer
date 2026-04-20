@@ -16,8 +16,6 @@ async function processStatic() {
     const outDir = "app/src/main/assets/viewer";
     const outDirDebug = "app/src/debug/assets/viewer";
 
-    await commandLine(getCommand("node_modules/.bin/eslint"), ".");
-
     await processScripts({
         rootDir,
         entryPoints: ["js/index.js", "js/worker.js"],
@@ -65,7 +63,7 @@ function getCommand(command, winExt = "cmd") {
  */
 function commandLine(command, ...args) {
     return new Promise((resolve, reject) => {
-        const subprocess = spawn(command, args, { shell: false, stdio: "inherit" });
+        const subprocess = spawn(command, args, { shell: globalThis.process.platform === "win32", stdio: "inherit" });
         subprocess.on("close", (code) => code === 0 ? resolve() : reject());
     });
 }

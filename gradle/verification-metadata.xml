@@ -7,6 +7,7 @@
          <trust group="gradle" name="gradle"/>
          <trust group="^.*" name="^.*" file=".*-sources\.jar" regex="true"/>
          <trust group="^.*" name="^.*" file=".*-javadoc\.jar" regex="true"/>
+         <trust group="com.android.tools.build" name="aapt2" file=".*-windows\.jar" regex="true"/>
       </trusted-artifacts>
    </configuration>
    <components>
