@@ -11,4 +11,4 @@ O próprio código é seguro em termos de memória com a avaliação dinâmica d
 No mecanismo, eles estão dentro do sandbox do renderizador Chromium com menos acesso do que ele teria dentro do navegador.
 
 O Projeto atual é um fork e totalmente baseado no código em https://github.com/GrapheneOS/PdfViewer
-Todos os diretos reservados a ele.
+Todos os diretos reservados a ele e seus contribuidores.
