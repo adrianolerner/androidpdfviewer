@@ -4,6 +4,7 @@ local.properties
 build/
 keystore.properties
 *.keystore
+*.jks
 /.idea
 /releases
 /node_modules
