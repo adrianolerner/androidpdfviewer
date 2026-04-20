@@ -1,10 +1,10 @@
-package app.grapheneos.pdfviewer.fragment
+package net.biesek.bnetpdfviewer.fragment
 
 import android.app.Dialog
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import androidx.fragment.app.DialogFragment
-import app.grapheneos.pdfviewer.R
+import net.biesek.bnetpdfviewer.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class DocumentPropertiesFragment : DialogFragment() {

@@ -42,10 +42,10 @@ android {
     compileSdk = 36
     buildToolsVersion = "36.1.0"
 
-    namespace = "app.bieseknet.bnetpdfviewer"
+    namespace = "net.biesek.bnetpdfviewer"
 
     defaultConfig {
-        applicationId = "app.bieseknet.bnetpdfviewer"
+        applicationId = "net.biesek.bnetpdfviewer"
         minSdk = 26
         targetSdk = 35
         versionCode = 32

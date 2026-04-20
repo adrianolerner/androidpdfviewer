@@ -1,4 +1,4 @@
-package app.grapheneos.pdfviewer
+package net.biesek.bnetpdfviewer
 
 import android.app.Application
 import com.google.android.material.color.DynamicColors

@@ -1,4 +1,4 @@
-package app.grapheneos.pdfviewer
+package net.biesek.bnetpdfviewer
 
 import android.view.View
 import android.view.ViewGroup.MarginLayoutParams

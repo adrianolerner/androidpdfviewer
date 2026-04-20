@@ -1,6 +1,6 @@
-package app.grapheneos.pdfviewer.loader
+package net.biesek.bnetpdfviewer.loader
 
-import app.grapheneos.pdfviewer.Utils
+import net.biesek.bnetpdfviewer.Utils
 import org.json.JSONException
 import org.json.JSONObject
 import java.text.ParseException

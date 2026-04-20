@@ -1,4 +1,4 @@
-package app.grapheneos.pdfviewer.outline
+package net.biesek.bnetpdfviewer.outline
 
 import android.annotation.SuppressLint
 import androidx.recyclerview.widget.RecyclerView
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
 
-import app.grapheneos.pdfviewer.databinding.OutlineListItemBinding
+import net.biesek.bnetpdfviewer.databinding.OutlineListItemBinding
 
 class OutlineRecyclerViewAdapter(
     private val values: List<OutlineNode>,

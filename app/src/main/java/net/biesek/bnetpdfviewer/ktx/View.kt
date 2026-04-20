@@ -1,4 +1,4 @@
-package app.grapheneos.pdfviewer.ktx
+package net.biesek.bnetpdfviewer.ktx
 
 import android.view.View
 import android.view.Window

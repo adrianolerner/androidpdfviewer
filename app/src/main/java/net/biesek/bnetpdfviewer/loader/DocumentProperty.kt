@@ -1,7 +1,7 @@
-package app.grapheneos.pdfviewer.loader
+package net.biesek.bnetpdfviewer.loader
 
 import androidx.annotation.StringRes
-import app.grapheneos.pdfviewer.R
+import net.biesek.bnetpdfviewer.R
 
 private const val TITLE_KEY = "Title"
 private const val AUTHOR_KEY = "Author"

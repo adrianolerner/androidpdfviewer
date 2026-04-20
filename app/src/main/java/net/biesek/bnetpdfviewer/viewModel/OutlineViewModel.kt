@@ -1,8 +1,8 @@
-package app.grapheneos.pdfviewer.viewModel
+package net.biesek.bnetpdfviewer.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import app.grapheneos.pdfviewer.outline.OutlineNode
+import net.biesek.bnetpdfviewer.outline.OutlineNode
 
 class OutlineViewModel : ViewModel() {
     private val outlineStack = mutableListOf<OutlineNode>()

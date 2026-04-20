@@ -1,4 +1,4 @@
-package app.grapheneos.pdfviewer.loader;
+package net.biesek.bnetpdfviewer.loader;
 
 import android.content.Context;
 import android.net.Uri;

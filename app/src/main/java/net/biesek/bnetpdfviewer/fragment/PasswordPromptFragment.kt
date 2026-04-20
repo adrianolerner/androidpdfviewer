@@ -1,4 +1,4 @@
-package app.grapheneos.pdfviewer.fragment
+package net.biesek.bnetpdfviewer.fragment
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -10,10 +10,10 @@ import android.view.WindowManager
 import android.view.inputmethod.EditorInfo.IME_ACTION_DONE
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
-import app.grapheneos.pdfviewer.PdfViewer
-import app.grapheneos.pdfviewer.R
-import app.grapheneos.pdfviewer.databinding.PasswordDialogFragmentBinding
-import app.grapheneos.pdfviewer.viewModel.PdfViewModel
+import net.biesek.bnetpdfviewer.PdfViewer
+import net.biesek.bnetpdfviewer.R
+import net.biesek.bnetpdfviewer.databinding.PasswordDialogFragmentBinding
+import net.biesek.bnetpdfviewer.viewModel.PdfViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
