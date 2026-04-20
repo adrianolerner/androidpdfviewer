@@ -1,15 +1,14 @@
-Simple Android PDF viewer based on pdf.js and content providers. The app
-doesn't require any permissions. The PDF stream is fed into the sandboxed
-WebView without giving it access to the network, files, content providers or
-any other data.
+Visualizador de PDF simples para Android baseado em pdf.js e provedores de conteúdo. O aplicativo
+Não requer nenhuma permissão. O fluxo de PDF é enviado para o ambiente isolado (sandbox).
+WebView sem lhe dar acesso à rede, arquivos, provedores de conteúdo ou quaisquer outros dados.
 
-Content-Security-Policy is used to enforce that the JavaScript and styling
-properties within the WebView are entirely static content from the APK assets
-along with blocking custom fonts since pdf.js handles rendering those itself.
+A Política de Segurança de Conteúdo (Content-Security-Policy) é usada para garantir que o JavaScript e os estilos sejam protegidos.
+As propriedades dentro do WebView são conteúdo inteiramente estático dos arquivos APK além de bloquear fontes personalizadas, já que o pdf.js se encarrega de renderizá-las por conta própria.
 
-It reuses the hardened Chromium rendering stack while only exposing a tiny
-subset of the attack surface compared to actual web content. The PDF rendering
-code itself is memory safe with dynamic code evaluation disabled, and even if
-an attacker did gain code execution by exploiting the underlying web rendering
-engine, they're within the Chromium renderer sandbox with less access than it
-would have within the browser.
+Ele reutiliza a pilha de renderização Chromium robusta, expondo apenas uma pequena parte dela.
+Subconjunto da superfície de ataque em comparação com o conteúdo real da web. A renderização em PDF.
+O próprio código é seguro em termos de memória com a avaliação dinâmica de código desativada, e mesmo se um invasor conseguiu executar código explorando a renderização web subjacente.
+No mecanismo, eles estão dentro do sandbox do renderizador Chromium com menos acesso do que ele teria dentro do navegador.
+
+O Projeto atual é um fork e totalmente baseado no código em https://github.com/GrapheneOS/PdfViewer
+Todos os diretos reservados a ele.
