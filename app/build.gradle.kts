@@ -42,10 +42,10 @@ android {
     compileSdk = 36
     buildToolsVersion = "36.1.0"
 
-    namespace = "app.grapheneos.pdfviewer"
+    namespace = "app.bieseknet.bnetpdfviewer"
 
     defaultConfig {
-        applicationId = "app.grapheneos.pdfviewer"
+        applicationId = "app.bieseknet.bnetpdfviewer"
         minSdk = 26
         targetSdk = 35
         versionCode = 32
